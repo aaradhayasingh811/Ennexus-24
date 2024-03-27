@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+
+.card_section{
+    margin-top: 8rem;
+}
+
+.full{
+    margin-top: 15%;
+    box-shadow: 0 0 20px 0 ; 
+    background: inherit; 
+    backdrop-filter: blur(5px); 
+    border-radius: 10px;
+}
+
+.win_text{
+    font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  /* text-shadow: 2px 2px #eef2f3; */
+  color:#86A7FC;
+
+  }
