@@ -1,12 +1,9 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Poppins:wght@500&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
 
 body {
-    /* padding-top: 3rem; */
-    /* padding-bottom: 3rem; */
+    
     color: #a3a0a0;
     background-color: rgb(60, 59, 59);
     background-image: url("https://img.freepik.com/free-vector/colorful-underwater-life-template_1284-37130.jpg?w=1060&t=st=1711212659~exp=1711213259~hmac=b4d17aacf964b5e9778b88ffbe843c85e76401c254be3df39da5eb3e9f700138");
@@ -17,21 +14,16 @@ body {
   }
   
   
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-  
-  /* Carousel base class */
+ 
   .carousel {
     /* height: 100vh; */
     margin-bottom: 4rem;
   }
-  /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
   }
   
-  /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
   }
@@ -67,10 +59,7 @@ body {
 
   }
   
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
   
-  /* Center align the text within the three columns below the carousel */
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -78,12 +67,10 @@ body {
   .marketing h2 {
     font-weight: 400;
   }
-  /* rtl:begin:ignore */
   .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
   }
-  /* rtl:end:ignore */
   
   
   /* Featurettes
