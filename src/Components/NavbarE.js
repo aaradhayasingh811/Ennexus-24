@@ -15,7 +15,7 @@ export default function Navbar() {
       {/* nav-pc */}
       <nav className='navcontainer'>
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="#home">Home</a></li>
           {/* <li><a href="#aboutmain">About</a></li> */}
           {/* <li><a href="#eventsmain">Event</a></li> */}
         </ul>
@@ -23,7 +23,7 @@ export default function Navbar() {
           <img className='logoo' src={logo} alt="logo"></img>
         </div>
         <ul>
-        <li><a href="#eventsmain">Event</a></li>
+        <li><a href="/">Event</a></li>
 
           {/* <li><a href="#mainfaq">FAQ</a></li> */}
           {/* <li><a href="#mainfoot">Contact Us</a></li> */}
@@ -39,11 +39,11 @@ export default function Navbar() {
         </a>
         <div className="topnav" style={{ display: isActive ? "block" : "none" }}>
           <div id="myLinks" ref={mylinks}>
-            <a href="/">Home</a>
-            <a href="#aboutmain">About</a>
-            <a href="#eventsmain">Events</a>
-            <a href="#mainfaq">FAQ</a>
-            <a href="#mainfoot">Contact Us</a>
+            <a href="#home">Home</a>
+            {/* <a href="#aboutmain">About</a> */}
+            <a href="/">Events</a>
+            {/* <a href="#mainfaq">FAQ</a> */}
+            {/* <a href="#mainfoot">Contact Us</a> */}
           </div>
         </div>
       </div>

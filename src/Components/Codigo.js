@@ -11,7 +11,7 @@ import Card from './card'
 import Cara from './cara'  
 import Gallery from './Gallery';
 import Event_desc from './Event_desc';
-import Navbar from "./Navbar";
+import Navbar from "./NavbarE";
 import Footer from "./Footer";
 
 

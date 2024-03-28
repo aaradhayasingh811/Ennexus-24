@@ -25,7 +25,7 @@ export default function Eventcard(props) {
               {props.description}
             </p>
           </div>
-          <button className="card__button">Read More</button>
+          <button className="card__button"><Link to={props.link}>Read More</Link></button>
       </div>
     </article >
     </>
