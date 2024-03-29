@@ -9,6 +9,7 @@ body {
     background-image: url("https://img.freepik.com/free-vector/colorful-underwater-life-template_1284-37130.jpg?w=1060&t=st=1711212659~exp=1711213259~hmac=b4d17aacf964b5e9778b88ffbe843c85e76401c254be3df39da5eb3e9f700138");
     background-blend-mode: multiply;
     background-repeat: no-repeat; 
+    background-size: cover;
      background-size: 100%; 
      background-attachment: fixed;
   }

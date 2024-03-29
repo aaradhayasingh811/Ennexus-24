@@ -6,7 +6,7 @@
 }
 
 .full{
-    margin-top: 15%;
+    /* margin-top: 15%; */
     box-shadow: 0 0 20px 0 ; 
     background: inherit; 
     backdrop-filter: blur(5px); 

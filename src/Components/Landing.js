@@ -5,36 +5,36 @@ export default function Landing(){
 
     // functions
     //Image slidein animation
-setTimeout(function() {
-    var image1 = document.getElementById('image1-js');
-    image1.style.left = '0px';
+// setTimeout(function() {
+//     var image1 = document.getElementById('image1-js');
+//     image1.style.left = '0px';
     
-    var image2 = document.getElementById('image2-js');
-    image2.style.left = '0px';
+//     var image2 = document.getElementById('image2-js');
+//     image2.style.left = '0px';
   
-    var textContainer = document.getElementById('container5');
-    textContainer.style.left = '0px';
-  }, 1000);
+//     var textContainer = document.getElementById('container5');
+//     textContainer.style.left = '0px';
+//   }, 1000);
   
-  //Header animation
-  setTimeout(function() {
-    var header = document.getElementById('heading');
-    header.style.top = '0px';
-  }, 1500);
+//   //Header animation
+//   setTimeout(function() {
+//     var header = document.getElementById('heading');
+//     header.style.top = '0px';
+//   }, 1500);
   
-  //site banner animation part 1
-  setTimeout(function(){
-    var mainHeader = document.getElementById('main-header');
+//   //site banner animation part 1
+//   setTimeout(function(){
+//     var mainHeader = document.getElementById('main-header');
     
-    mainHeader.style.top = '0';
-  }, 2500);
+//     mainHeader.style.top = '0';
+//   }, 2500);
   
-  //site banner animation part 2
-  setTimeout(function(){
-    var subHeader = document.getElementById('sub-heading');
+//   //site banner animation part 2
+//   setTimeout(function(){
+//     var subHeader = document.getElementById('sub-heading');
     
-    subHeader.style.top = '0';
-  }, 3200);
+//     subHeader.style.top = '0';
+//   }, 3200);
   
   
   
@@ -43,9 +43,9 @@ setTimeout(function() {
 
     return(
         <>
-        <div className="wrapper">
+        {/* <div className="wrapper">
   <div className="text-overlay">
-    <div className="main-content">
+    <div className="main-content text-center">
       <h1 id="main-header">EVENTS</h1>
       <h3 id="sub-heading">Creativity | Fun | Learning</h3>
     </div>
@@ -74,8 +74,17 @@ setTimeout(function() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
+<section>
+	<div class="content">
+    {/* <h4>ENNEXUS'24</h4> */}
+		<h2>EVENTS</h2>
+		<h2>EVENTS</h2>
+    <h3>Creativity | Fun | Learning</h3>
+
+	</div>
+</section>
         </>
     );
 }
