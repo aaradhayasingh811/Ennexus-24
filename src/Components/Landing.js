@@ -77,7 +77,7 @@ export default function Landing(){
 </div> */}
 
 <section>
-	<div class="content">
+	<div className="content">
     {/* <h4>ENNEXUS'24</h4> */}
 		<h2>EVENTS</h2>
 		<h2>EVENTS</h2>

@@ -8,7 +8,7 @@ export default function Event_desc(props){
              <div className="row featurette mb-5" style={{color:'#070F2B'}}>
         <h1 className='text-center mb-5 win_text' style={{paddingTop:'8rem'}}>{props.name}</h1>
         <div className="col-md-7">
-          <p className="lead"  style={{color:'#F3F0CA',margin:'0 3rem'}}>
+          <p className="lead" id='lead' style={{color:'#F3F0CA',margin:'0 3rem'}}>
           {props.desc}
           </p>
         </div>
